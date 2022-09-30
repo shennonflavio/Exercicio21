@@ -11,3 +11,8 @@ function calcX() {
   }
   [xValue].forEach((item) => (result.innerHTML = item.join("<br/> ")));
 }
+
+function reset() {
+  valueX.value = "";
+  result.innerHTML = "";
+}
